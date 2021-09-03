@@ -28,7 +28,7 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = f"{file_name} \n പുതിയ സിനിമകൾ ആദ്യം ലഭിക്കാൻ join Now \n @mallucinemala",
+                caption = f"{file_name} \n <b>⭕️പുതിയ സിനിമകൾ ആദ്യം ലഭിക്കാൻ join Now</b> \n @mallucinemala",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
